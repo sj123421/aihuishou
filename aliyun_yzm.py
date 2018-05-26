@@ -10,7 +10,7 @@ def aliyun_yzm(num):
     host = 'http://jisuyzmsb.market.alicloudapi.com'
     path = '/captcha/recognize'
     method = 'POST'
-    appcode = 'AppCode'
+    appcode = 'AppCode'  #自行添加
     querys = 'type=n4'
     bodys = {}
     url = host + path + '?' + querys
