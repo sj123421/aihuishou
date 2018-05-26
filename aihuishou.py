@@ -31,7 +31,7 @@ from PIL import Image,ImageEnhance
 class Spider():
     def __init__(self):
         self.headers = {
-            'User-Agent': 'user-agent'
+            'User-Agent': 'your user-agent'
         }
         self.phoneType = 'https://www.aihuishou.com/shouji/b9?all=False'
         self.aihuishou = 'https://www.aihuishou.com'
