@@ -38,7 +38,7 @@ class Spider():
         self.submit = 'http://www.aihuishou.com/userinquiry/create'
         self.dataApi = 'https://www.aihuishou.com/portal-api/inquiry/'
         #在此处创建MongoDB，接下来只要用self.info.insert()就可以逐条插入数据
-        self.client = pymongo.MongoClient(host='localhost', port=27017)
+        self.client = pymongo.MongoClient(host='localhost', port=port)
         self.db = self.client['aihuishou']
         self.info = self.db['shuju']
 
